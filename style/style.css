@@ -165,3 +165,9 @@ header {
     color: white;
     background: #47CF73;
 }
+
+@media (max-width: 425px) {
+    .ocultar--icones, #ocultar--icone {
+        display: none;
+    }
+}
