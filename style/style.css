@@ -16,6 +16,11 @@ body {
     height: 65px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .div--icone {
     margin-top: auto;
     margin-bottom: auto;
@@ -167,7 +172,7 @@ header {
 }
 
 @media (max-width: 425px) {
-    .ocultar--icones, #ocultar--icone {
+    .ocultar--icones{
         display: none;
     }
 }
