@@ -170,6 +170,18 @@ header {
     background: #47CF73;
 }
 
+@media (max-width: 320px) {
+    .ocultar--icones{
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .ocultar--icones{
+        display: none;
+    }
+}
+
 @media (max-width: 425px) {
     .ocultar--icones{
         display: none;
